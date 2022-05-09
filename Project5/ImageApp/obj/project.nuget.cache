@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRCrOIe0cvxTTSnStXnQwblvC4g15mw4Wzin84cZk8SIVz7NhDThg23ifS2UrvKb9i38YLkzdmTZCYg8/L4+FQ==",
+  "success": true,
+  "projectFilePath": "C:\\Classes\\cs341\\ImageApp\\ImageApp\\ImageApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joe\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

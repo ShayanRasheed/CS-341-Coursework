@@ -1,0 +1,63 @@
+#light
+
+
+
+
+
+namespace ImageLibrary
+  module Operations = begin
+    val avgList :
+      img:(int * int * int) list ->
+        newImg:(int * int * int) list -> (int * int * int) list
+    val _Grayscale :
+      image:(int * int * int) list list ->
+        newImage:(int * int * int) list list -> (int * int * int) list list
+    val Grayscale :
+      width:int ->
+        height:int ->
+          depth:int ->
+            image:(int * int * int) list list -> (int * int * int) list list
+    val replace : img:int -> threshold:int -> depth:int -> int
+    val calc :
+      img:(int * int * int) list ->
+        threshold:int ->
+          depth:int -> newImg:(int * int * int) list -> (int * int * int) list
+    val _Threshold :
+      image:(int * int * int) list list ->
+        threshold:int ->
+          depth:int ->
+            newImage:(int * int * int) list list -> (int * int * int) list list
+    val Threshold :
+      width:int ->
+        height:int ->
+          depth:int ->
+            image:(int * int * int) list list ->
+              threshold:int -> (int * int * int) list list
+    val _FlipHorizontal :
+      image:'a list list -> newImage:'a list list -> 'a list list
+    val FlipHorizontal :
+      width:int ->
+        height:int ->
+          depth:int ->
+            image:(int * int * int) list list -> (int * int * int) list list
+    val helper2 : newImg:'a -> newList:'a list -> factor:int -> 'a list
+    val helper : img:'a list -> newImg:'a list -> factor:int -> 'a list list
+    val _Zoom :
+      image:'a list list -> newImage:'a list list -> factor:int -> 'a list list
+    val Zoom :
+      width:int ->
+        height:int ->
+          depth:int ->
+            image:(int * int * int) list list ->
+              factor:int -> (int * int * int) list list
+    val _rotate : image:'a list list -> newList:'a list -> index:int -> 'a list
+    val rotate :
+      image:'a list list ->
+        newImage:'a list list -> index:int -> width:int -> 'a list list
+    val RotateRight90 :
+      width:int ->
+        height:int ->
+          depth:int ->
+            image:(int * int * int) list list -> (int * int * int) list list
+  end
+

@@ -1,0 +1,5 @@
+run = ["dotnet", "run", "--project", "./ImageApp/ImageApp.csproj"]
+#entrypoint = "main.cs"
+
+[env]
+DOTNET_SKIP_FIRST_TIME_EXPERIENCE="true"

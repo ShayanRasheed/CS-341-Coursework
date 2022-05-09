@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageApp/ImageApp.csproj": {}
+  },
+  "projects": {
+    "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageApp/ImageApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageApp/ImageApp.csproj",
+        "projectName": "ImageApp",
+        "projectPath": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageApp/ImageApp.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageApp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/nix/store/whp5n1561cijdjvrwks8hlvfk4gyj055-dotnet-sdk-2.1.810/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageLibrary/ImageLibrary.fsproj": {
+                "projectPath": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageLibrary/ImageLibrary.fsproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageLibrary/ImageLibrary.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageLibrary/ImageLibrary.fsproj",
+        "projectName": "ImageLibrary",
+        "projectPath": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageLibrary/ImageLibrary.fsproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/Project05-01-image-library-ShayanRasheed1/ImageLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/nix/store/whp5n1561cijdjvrwks8hlvfk4gyj055-dotnet-sdk-2.1.810/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
